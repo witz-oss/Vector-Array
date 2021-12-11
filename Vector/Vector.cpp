@@ -9,8 +9,8 @@ int main()try
 {
     //praktikum2();
 
-    myRangeVec<int> vec1(5, 12);
-    myRangeVec<int> vec2(5, 12);
+    myRangeVec<int> vec1(-1, 7);
+    myRangeVec<int> vec2(-1, 7);
 
     for (int i{ vec1.low() }; i < vec1.high(); ++i)
     {
